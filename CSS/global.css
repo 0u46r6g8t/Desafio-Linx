@@ -234,6 +234,7 @@ footer .footerBottom {
   flex-direction: column;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
+  justify-content: space-between;
 }
 footer .footerBottom img {
   width: 100px;
