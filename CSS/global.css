@@ -1,0 +1,391 @@
+button {
+  height: 25px;
+  width: 85px;
+  border: 0;
+  padding: 5px 10px;
+  background-color: #915fef;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+.containerSection .contentSecFilter {
+  height: 150px;
+}
+.containerSection .contentSecFilter #formHeader {
+  margin: 2.5rem auto;
+  width: 60rem;
+}
+.containerSection .contentSecFilter #formHeader form {
+  padding: 0;
+  width: 415px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.containerSection .contentSecFilter #formHeader form input {
+  width: 70%;
+  height: 36px;
+  border: 0;
+  outline: 0;
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.containerSection .contentSecFilter #formHeader form button {
+  height: 40px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 100.2px;
+  background-color: #12747F;
+  transition: all 0.5s ease-in-out;
+}
+.containerSection .contentSecFilter #formHeader form button:hover {
+  outline: 0;
+  background-color: #175a61;
+}
+.containerSection .contentSecFilter .containerOrganizar {
+  color: rgba(0, 0, 0, 0.6);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerSection .contentSecFilter .containerOrganizar select {
+  color: black;
+  border: 0 none;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 0 0;
+  background-color: white;
+}
+.containerSection .contentSecFilter .containerOrganizar select option {
+  color: black;
+  font-size: 16px;
+}
+.containerSection .contentSecFilter .containerOrganizar select:focus, .containerSection .contentSecFilter .containerOrganizar select:hover {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.containerSection {
+  margin: 25px auto;
+}
+.containerSection .contentSecFilter {
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.containerSection .contentSecFilter form {
+  margin: 5px auto 15px;
+  width: 295px;
+  text-align: center;
+}
+.containerSection .contentSecFilter .containerOrganizar {
+  margin: 0 auto;
+  width: 280px;
+  text-align: center;
+  font-size: 13px;
+}
+.containerSection .contentSecPublications {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.containerSection .contentSecPublications .containerPostMain {
+  margin-top: 10px;
+}
+.containerSection .contentSecPublications .containerPost, .containerSection .contentSecPublications .containerPostMain {
+  flex-direction: column;
+  flex: 1;
+  max-width: 330px;
+  margin: 40px auto;
+}
+.containerSection .contentSecPublications .containerPost h3, .containerSection .contentSecPublications .containerPostMain h3 {
+  color: #BB41EB;
+  font-size: 25px;
+  font-weight: 500px;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment, .containerSection .contentSecPublications .containerPostMain .containerAssignment {
+  min-width: 330px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: white;
+  margin-right: 10px;
+  box-shadow: 5px 5px 10px 5px #a2a2a2;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration, .containerSection .contentSecPublications .containerPostMain .containerAssignment #textDecoration {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration #contentPrazo, .containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration p, .containerSection .contentSecPublications .containerPostMain .containerAssignment #textDecoration #contentPrazo, .containerSection .contentSecPublications .containerPostMain .containerAssignment #textDecoration p {
+  margin-left: 15px;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration p, .containerSection .contentSecPublications .containerPostMain .containerAssignment #textDecoration p {
+  margin-top: 10px;
+  width: 300px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 2px;
+  text-align: justify;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration #contentPrazo, .containerSection .contentSecPublications .containerPostMain .containerAssignment #textDecoration #contentPrazo {
+  height: 20px;
+  margin-top: 10px;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration #contentPrazo, .containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration #contentPrazo span, .containerSection .contentSecPublications .containerPostMain .containerAssignment #textDecoration #contentPrazo, .containerSection .contentSecPublications .containerPostMain .containerAssignment #textDecoration #contentPrazo span {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment .contentDeadline, .containerSection .contentSecPublications .containerPostMain .containerAssignment .contentDeadline {
+  text-align: center;
+  font-weight: bold;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment .contentDeadline div, .containerSection .contentSecPublications .containerPostMain .containerAssignment .contentDeadline div {
+  color: #717070;
+  margin-left: 15px;
+  text-align: left;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment .contentDeadline img, .containerSection .contentSecPublications .containerPostMain .containerAssignment .contentDeadline img {
+  width: 330px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: 0.5s all ease-in-out;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment .contentDeadline img:hover, .containerSection .contentSecPublications .containerPostMain .containerAssignment .contentDeadline img:hover {
+  --webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.containerSection .contentSecPublications .containerPost .contentDate, .containerSection .contentSecPublications .containerPostMain .contentDate {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.containerSection .contentSecPublications .containerPost .contentDate div, .containerSection .contentSecPublications .containerPostMain .contentDate div {
+  margin-left: 15px;
+  padding-top: 10px;
+}
+.containerSection .contentSecPublications .containerPost .contentDate button, .containerSection .contentSecPublications .containerPostMain .contentDate button {
+  width: 65px;
+  margin: 0 10px 5px 0;
+  background-color: #9DBF21;
+  padding: 4px;
+  transition: 0.5s all ease-in-out;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.containerSection .contentSecPublications .containerPost .contentDate button:hover, .containerSection .contentSecPublications .containerPostMain .contentDate button:hover {
+  background-color: #74910b;
+  outline: none;
+}
+.containerSection .contentSecPublications .containerPostMain .contentAssignment {
+  margin-top: 10px;
+}
+.containerSection .contentSecPublications .containerPost .containerAssignment #textDecoration {
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 100px;
+}
+footer h2 {
+  width: 190px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #588BB0;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+footer .mainFooter {
+  margin: 10px auto;
+  background-color: #808080;
+  padding: 40px;
+  border-radius: 25px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+footer .mainFooter .contentFooter {
+  margin-top: 20px;
+  flex-direction: column-reverse;
+}
+footer .mainFooter .contentFooter .itemFooter {
+  font-size: 17px;
+  text-indent: 25px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+footer .footerBottom {
+  margin: 0px auto;
+  width: 100%;
+  height: 120px;
+  margin: auto;
+  position: fixed;
+  background-color: #130e0ed7;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+footer .footerBottom img {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footerBottom p#textBottomFooter {
+  margin: 10px auto;
+  color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  main p {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .containerSection .contentSecFilter .containerOrganizar {
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 950px;
+    font-size: 17px;
+  }
+
+  .contentSecPublications {
+    display: flex;
+  }
+  .contentSecPublications .containerPost, .contentSecPublications .containerPostMain {
+    min-width: 950px;
+  }
+  .contentSecPublications .containerPost .containerAssignment, .contentSecPublications .containerPostMain .containerAssignment {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+  }
+  .contentSecPublications .containerPost .containerAssignment #textDecoration, .contentSecPublications .containerPostMain .containerAssignment #textDecoration {
+    width: 353px;
+  }
+  .contentSecPublications .containerPost .containerAssignment .contentDeadline, .contentSecPublications .containerPostMain .containerAssignment .contentDeadline {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+  }
+  .contentSecPublications .containerPost .containerAssignment .contentDeadline #idPrazo, .contentSecPublications .containerPostMain .containerAssignment .contentDeadline #idPrazo {
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    margin: 125px 368px;
+    color: red;
+  }
+  .contentSecPublications .containerPost .contentDate, .contentSecPublications .containerPostMain .contentDate {
+    display: flex;
+    align-items: flex-end;
+    width: 350px;
+    height: 80%;
+  }
+
+  footer .mainFooter {
+    width: 550px;
+  }
+}
+@media (min-width: 600px) {
+  footer .mainFooter {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .containerSection .contentSecFilter #formHeader {
+    width: 350px;
+    font-size: 17px;
+  }
+  .containerSection .contentSecFilter #formHeader form {
+    width: 300px;
+  }
+  .containerSection .contentSecFilter #formHeader form input {
+    width: 58%;
+  }
+
+  .contentSecPublications .containerPost {
+    margin-top: 50px;
+  }
+
+  footer .mainFooter {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 241px) {
+  .containerMain {
+    border: 1px solid black;
+  }
+}
+* {
+  font-family: "Roboto", sans-serif;
+  color: #915fef;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D9D9D9;
+}
+
+.containerSection .contentSecFilter .containerOrganizar {
+  width: 300px;
+}
+.containerSection .contentSecFilter .containerOrganizar p {
+  font-size: 17px;
+  color: black;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+p {
+  padding: 10px;
+  color: #404040;
+  text-align: justify;
+}
+
+#date, .dateWeek {
+  color: #696969;
+  font-size: 13px;
+}
+
+main {
+  background-color: #915fef;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+main p {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 337px) {
+  main {
+    width: 345px;
+  }
+
+  .containerSection .contentSecFilter .containerOrganizar {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=global.css.map */

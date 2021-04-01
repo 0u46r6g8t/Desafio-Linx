@@ -1,0 +1,110 @@
+@media screen and (min-width: 1000px){
+    main{
+        p{
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    }
+
+    .containerSection .contentSecFilter{
+        // width: 360px;
+        .containerOrganizar{
+            margin-top: 130px;
+            display: flex;
+            justify-content: flex-end;
+            min-width: 950px;
+            font-size: 17px;
+        }
+    }    
+
+    .contentSecPublications{
+        display: flex;
+        
+        .containerPost, .containerPostMain{
+            min-width: 950px;  
+            
+            .containerAssignment{
+                height: 180px;
+                display: flex;
+                flex-direction: row;
+                width: 950px;
+                
+                #textDecoration{
+                    width: 353px;
+                }
+
+                .contentDeadline{
+                    display: flex;
+                    width: 500px;
+                    flex-direction: row;
+
+                    #idPrazo{
+                        position: absolute;
+                        height: 20px;
+                        width: 100px;
+                        margin: 125px 368px;
+                        color: red;
+                    }
+                }
+            }
+
+            .contentDate{
+                display: flex;
+                align-items: flex-end;
+                width: 350px;
+                height: 80%;
+            }
+        }
+    }
+
+    footer{
+        .mainFooter{
+            width: 550px;
+        }
+    }
+}
+
+@media(min-width: 600px){
+    footer{
+        .mainFooter{
+            width: 450px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px){
+    .containerSection .contentSecFilter{
+        // width: 360px;
+        #formHeader{
+            width: 350px;
+            font-size: 17px;
+
+            form{
+                width: 300px;
+
+                input{
+                    width:58%;
+                }
+            }
+        }
+    }
+    
+    .contentSecPublications{
+        .containerPost{
+            margin-top: 50px;
+        } 
+    }
+    footer{
+        .mainFooter{
+            width: 250px;
+        }
+    }
+} 
+
+// Estilizado para dispositivos com resolucao menor
+
+@media screen and (min-width: 241px){
+    .containerMain{
+        border: 1px solid black;
+    }
+}

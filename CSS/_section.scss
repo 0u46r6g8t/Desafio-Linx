@@ -1,0 +1,232 @@
+// Components
+@import "button";
+@import "header";
+// Primeiro container
+.containerSection{
+	margin: 25px auto;
+
+	.contentSecFilter{
+		padding-top: 15px;
+		padding-bottom: 50px;
+
+		// Barra de pesquisa 
+		form{
+			margin: 5px auto 15px;
+			width: 295px;
+			text-align: center;
+		}
+
+		// Tag de opções de busca
+		.containerOrganizar{
+			margin: 0 auto;
+			width: 280px;
+			text-align: center;
+			font-size: 13px;
+		}
+	}
+	
+	// Secção principal, que conterá os cards com as task
+	.contentSecPublications{
+		
+		display: flex;
+		flex-wrap: wrap;
+		padding: 10px;
+
+		.containerPostMain{
+			margin-top: 10px;
+		}
+		
+		.containerPost, .containerPostMain{
+			flex-direction: column;
+			flex: 1;
+				
+			h3{
+				color: #BB41EB;
+				font-size: 25px;
+				font-weight: 500px;
+			}
+			max-width: 330px;
+			margin: 40px auto;
+
+			.containerAssignment{
+
+				// Bloco principal das task
+				
+				min-width: 330px;
+				border-radius: 10px;
+				margin-top: 10px;
+				background-color: white;
+				margin-right: 10px;
+				box-shadow: 5px 5px 10px 5px #a2a2a2;
+				
+				#textDecoration{
+					margin-top: 5px;
+					display: flex;
+					flex-direction: column-reverse;
+
+					#contentPrazo, p{
+						margin-left: 15px;
+					}
+
+					p{
+						margin-top: 10px;
+						width: 300px;
+						font-family: 'Roboto', sans-serif;
+						font-weight: 700;
+						font-size: 15px;
+						padding: 2px;
+						text-align: justify;
+					}
+
+					#contentPrazo{
+						height: 20px;
+						margin-top: 10px;
+					}
+
+					#contentPrazo, #contentPrazo span{
+						color: #8e8e8e;
+						font-size: 12px;	
+					}
+				}
+				.contentDeadline{				
+					text-align: center;
+					font-weight: bold;
+					
+					div{
+						color: #717070;
+						margin-left: 15px;
+						text-align: left;
+					}
+
+					img{
+						width: 330px;
+						border-top-left-radius: 5px;
+						border-top-right-radius: 5px;
+						transition: 0.5s all ease-in-out;
+					}
+
+					img:hover{
+						--webkit-transform: scale(1.05);
+						transform: scale(1.05);
+					}
+				}
+			}
+
+			.contentDate{
+
+				display: flex;
+				flex-direction: row-reverse;
+				margin-top: 20px;
+				justify-content: space-between;
+				
+				div{
+					margin-left: 15px;
+					padding-top: 10px;
+				}
+
+				button{
+					width: 65px;
+					margin: 0 10px 5px 0;
+					background-color: #9DBF21;
+					padding: 4px;
+					transition: 0.5s all ease-in-out;
+					font-size: 10px;
+					margin-bottom: 10px;
+				}
+
+				button:hover{
+					background-color: #74910b;
+					outline: none;
+				}
+			}
+		}
+		
+		.containerPostMain{
+			.contentAssignment{
+				margin-top: 10px;
+			}
+		}
+
+		.containerPost{
+			.containerAssignment{
+				#textDecoration{
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+	
+	
+	// Footer
+}
+
+// Foi estilizado utilizando a posição absoluta, para que o efeito de entre linhas consiga ser aplicado 
+footer{
+	margin-top: 100px;
+
+	h2{
+		width: 190px;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #588BB0;
+		color: white;
+		border-radius: 8px;
+		padding: 10px;
+	}
+	
+	.mainFooter{
+
+		margin: 10px auto;
+		background-color: #808080;
+		padding: 40px;
+		border-radius: 25px;
+		margin-bottom: 150px;
+
+		display: flex;
+		flex-direction: column;
+
+		.contentFooter{
+			margin-top: 20px;
+			flex-direction: column-reverse;
+			
+			.itemFooter{
+				font-size: 17px;
+				text-indent: 25px;
+				color: black;
+				font-family: 'Roboto', sans-serif;
+				line-height: 20px;
+			}
+		}
+		
+	}
+
+	.footerBottom{
+
+		margin: 0px auto;
+		width: 100%;
+		height: 120px;
+		margin: auto;
+		position: fixed;
+		background-color: #130e0ed7;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+
+		img{	
+			width: 100px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		p#textBottomFooter{
+			margin: 10px auto;
+			color: white;
+		}
+
+	}
+
+}
